@@ -2,6 +2,7 @@
   "use strict";
 
   function r(f,q,c) {
+    if (c === 0) return;
     var elem = document.querySelector(q);
     if (elem) f(elem); else setTimeout(r,9,f,q,c?c-1:1e3);
   }
