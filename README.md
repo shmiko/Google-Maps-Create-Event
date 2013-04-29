@@ -3,7 +3,7 @@ Google-Maps-Create-Event
 A Chrome Extension for Creating Google Calendar Events From A Google Maps Location
 
 ## Purpose
-As an user who enjoys Google Now event notifications, geo-locating events is now a must. I couldn't find a easy way of creating events from Google Maps locations so I figured out a way to implement it. In the end I'm adding dom into the infowindow template (Some internal buffed up version of [google-jstemplate](https://code.google.com/p/google-jstemplate/)), which configures the link for your consumption
+As a user who enjoys Google Now's event notifications, geo-locating events is now a must. I couldn't find a easy way of creating events from Google Maps locations so I figured out a way to implement it. In the end I'm adding dom into the infowindow template (Which is some internal buffed up version of [google-jstemplate](https://code.google.com/p/google-jstemplate/)), which configures the link for your consumption
 
 ## Dependencies
 None
